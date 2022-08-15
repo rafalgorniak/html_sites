@@ -1,0 +1,40 @@
+body {
+    background: #eee;
+    font: 18px Arial, sans-serif;
+
+}
+/*tutaj jest komenatrz dla innych programistów*/
+
+.wrapper{
+    margin: 0 auto;
+    width: 80%;
+}
+
+h1{
+    text-align: center;
+}
+
+.p-welcome{
+    line-height: 20px;
+    margin-top: 20px;
+    width: auto;
+    background-color: aqua;
+}
+
+.image{
+    width: auto;
+    height: auto;
+}
+
+.img-circle{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-width: 768px)
+{
+    .wrapper{
+        margin: 0 auto;
+        width: 600px;
+    }
+}
