@@ -1,0 +1,23 @@
+:root{
+    --text-color: grey;
+}
+
+body{
+    background-color: var(--text-color);
+}
+
+.s1{
+    background-color: aqua;
+}
+
+.s1 p{
+    background-color: palevioletred;
+}
+
+.section-shortparagraph{
+    background-color: aquamarine;
+}
+
+.section-shortparagraph h2{
+    text-align:center;
+}
