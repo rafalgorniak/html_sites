@@ -1,0 +1,17 @@
+*{
+    margin: 5;
+    padding: 10;
+}
+body {
+    background-color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#calc-actions{
+    margin:10px;
+}
+
+#calc-actions button{
+    margin-left: 5px;
+}
