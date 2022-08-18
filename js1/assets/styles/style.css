@@ -1,13 +1,22 @@
-*{
-    margin: 5;
-    padding: 10;
-}
+
 body {
     background-color: grey;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
+header {
+    height: 70px;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#calculator {
+    margin-top: 10px;
+}
 #calc-actions{
     margin:10px;
 }
