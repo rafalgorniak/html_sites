@@ -27,42 +27,39 @@ function makelog(operation, prevres, numb, curres) {
 }
 
 function add() {
-    const numberBefore = currentResult;
+    const previousResult = currentResult;
     const enteredNumber = inputvalue();
     currentResult = currentResult + enteredNumber;
-    createAndWriteOutput('+',numberBefore,enteredNumber);
-    makelog('addition',numberBefore,enteredNumber,currentResult);
+    createAndWriteOutput('+',previousResult,enteredNumber);
+    makelog('addition',previousResult,enteredNumber,currentResult);
 }
 
 function substract() {
-    const numberBefore = currentResult;
+    const previousResult = currentResult;
     const enteredNumber = inputvalue()
     currentResult = currentResult - enteredNumber;
-    createAndWriteOutput('-',numberBefore,enteredNumber);
-    makelog('substraction',numberBefore,enteredNumber,currentResult);
+    createAndWriteOutput('-',previousResult,enteredNumber);
+    makelog('substraction',previousResult,enteredNumber,currentResult);
 }
 
-
 function multiply() {
-    const numberBefore = currentResult;
+    const previousResult = currentResult;
     const enteredNumber = inputvalue()
     currentResult = currentResult * enteredNumber;
-    createAndWriteOutput('*',numberBefore,enteredNumber);
-    makelog('multiplying',numberBefore,enteredNumber,currentResult);
+    createAndWriteOutput('*',previousResult,enteredNumber);
+    makelog('multiplying',previousResult,enteredNumber,currentResult);
 }
 
 
 function divide() {
-    const numberBefore = currentResult;
+    const previousResult = currentResult;
     const enteredNumber = inputvalue()
     if(enteredNumber!=0) {
         currentResult = currentResult / enteredNumber;
-        createAndWriteOutput('/',numberBefore,enteredNumber);
-        makelog('division',numberBefore,enteredNumber,currentResult);
+        createAndWriteOutput('/',previousResult,enteredNumber);
+        makelog('division',previousResult,enteredNumber,currentResult);
 }
 } 
-
-
 
 addBtn.addEventListener('click',add);
 substractBtnnput.addEventListener('click',substract);
